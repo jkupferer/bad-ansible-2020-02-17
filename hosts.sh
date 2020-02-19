@@ -36,7 +36,10 @@ cat <<EOF
         "children": [
             "threetierapp", 
             "ungrouped"
-        ]
+        ],
+        "vars": {
+            "GUID": "${GUID}"
+        }
     }, 
     "appdbs": {
         "hosts": [
